@@ -123,17 +123,6 @@ class WideResNet(nn.Module):
                 if use_fixup:
                     m.weight.data.zero_()
 
-        '''
-            for networkblock in [self.block1, self.block2, self.block3]:
-                for b in networkblock:
-                    k = b.conv1.kernel_size[0] * b.conv1.kernel_size[1] * b.conv1.out_channels
-                    b.conv1.weight.data.normal_(0, fixup_l ** (-0.5) * math.sqrt(2. / k)) 
-                    b.conv2.weight.data.zero_()
-                    if b.conv_res is not None:
-                        k = b.conv_res.kernel_size[0] * b.conv_res.kernel_size[1] * b.conv_res.out_channels
-                        b.conv_res.weight.data.normal_(0, math.sqrt(2. / k))
-        '''
-
     def forward(self, x):
         out = self.conv1(x)
         out = self.block1(out)
