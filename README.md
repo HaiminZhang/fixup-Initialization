@@ -9,14 +9,10 @@ python train.py --layers 40 --widen-factor 10 --batchnorm False --fixup True
 ```
 
 # Acknowledgment
-Wide Residual Network by Sergey Zagoruyko and Nikos Komodakis:
-https://arxiv.org/abs/1605.07146
+[Wide Residual Network](https://arxiv.org/abs/1605.07146) by Sergey Zagoruyko and Nikos Komodakis
 
-Fixup initialization by Hongyi Zhang, Yann N. Dauphin, Tengyu Ma:
-https://arxiv.org/abs/1901.09321
+[Fixup Initialization: Residual Learning Without Normalization](https://arxiv.org/abs/1901.09321) by Hongyi Zhang, Yann N. Dauphin, Tengyu Ma
 
-WRN code by xternalz:
-https://github.com/xternalz/WideResNet-pytorch
+Fixup implementation was originally [introduced by Andy Brock](https://github.com/ajbrock/BoilerPlate)
 
-Fixup implementation was originally introduced by Andy Brock:
-https://github.com/ajbrock/BoilerPlate
+[WRN code](https://github.com/xternalz/WideResNet-pytorch) by xternalz
