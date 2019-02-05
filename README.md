@@ -1,4 +1,4 @@
-# Wide ResNet with optional Fixup initialization
+# Wide Residual Network with optional Fixup initialization
 
 The code presents the implementation of Fixup as an option for standard Wide ResNet. When BatchNorm and Fixup are enabled simultaneously, Fixup initialization and the standard structure of the residual block are used.
 
@@ -9,7 +9,7 @@ python train.py --layers 40 --widen-factor 10 --batchnorm False --fixup True
 ```
 
 # Acknowledgment
-Wide ResNet by Sergey Zagoruyko and Nikos Komodakis:
+Wide Residual Network by Sergey Zagoruyko and Nikos Komodakis:
 https://arxiv.org/abs/1605.07146
 
 Fixup initialization by Hongyi Zhang, Yann N. Dauphin, Tengyu Ma:
