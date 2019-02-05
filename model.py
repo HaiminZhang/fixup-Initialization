@@ -1,10 +1,9 @@
 """
-Wide ResNet with Fixup initialization
+Wide ResNet by Sergey Zagoruyko and Nikos Komodakis
+Fixup initialization by Hongyi Zhang, Yann N. Dauphin, Tengyu Ma
 Based on code by xternalz and Andy Brock: 
 https://github.com/xternalz/WideResNet-pytorch
 https://github.com/ajbrock/BoilerPlate
-Wide ResNet by Sergey Zagoruyko and Nikos Komodakis
-Fixup initialization by Hongyi Zhang, Yann N. Dauphin, Tengyu Ma
 """
 
 import math
