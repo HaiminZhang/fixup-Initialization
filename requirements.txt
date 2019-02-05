@@ -1,0 +1,4 @@
+tqdm>=4.30.0
+torch>=1.0.0
+torchvision
+tensorboard_logger
